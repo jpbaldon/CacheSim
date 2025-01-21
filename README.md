@@ -30,17 +30,17 @@ It uses the write-back and write-allocate write policy.
 It allows for inclusive or non-inclusive caches.
 
 Inputs: 
-Blocksize (in bytes)
-Size of each cache (in bytes)
-Associativity of each cache (as an integer)
-Inclusion policy (as an integer)
-Replacement Policy (as an integer)
-Input file name (this file contains a list of pairs of input; the first input in each pair is 'r' or 'w' for "read" or "write", and the second is a 32 bit address in hexadecimal)
+1. Blocksize (in bytes)
+2. Size of each cache (in bytes)
+3. Associativity of each cache (as an integer)
+4. Inclusion policy (as an integer)
+5. Replacement Policy (as an integer)
+6. Input file name (this file contains a list of pairs of input; the first input in each pair is 'r' or 'w' for "read" or "write", and the second is a 32 bit address in hexadecimal)
 
 Outputs:
-Hex blocks stored in each set of each cache (with 'D' displayed if the dirty bit is set)
-Number of reads, read misses, writes, and write misses for each cache
-Miss rate for each cache
-Number of writebacks for L2
-Number of blocks transferred
+1. Hex blocks stored in each set of each cache (with 'D' displayed if the dirty bit is set)
+2. Number of reads, read misses, writes, and write misses for each cache
+3. Miss rate for each cache
+4. Number of writebacks for L2
+5. Number of blocks transferred
 
