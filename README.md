@@ -6,11 +6,11 @@ ________________________________________________________________________________
 INSTALL & RUN
 
 To run on Windows:
-1: open cmd prompt (if you don't already have Windows Subsystem for Linux)
-2: run "wsl --install"
-3: open your Linux distribution from the Start menu
-4: run "sudo apt install make"
-5: follow Linux steps 3-6 below
+1. open cmd prompt (if you don't already have Windows Subsystem for Linux)
+2. run "wsl --install"
+3. open your Linux distribution from the Start menu
+4. run "sudo apt install make"
+5. follow Linux steps 3-6 below
 
 To run on Linux:
 1. download the repository
